@@ -1,0 +1,21 @@
+Class 0: 
+~x42 x5 x65 x24 ~x67 ~x49 ~x78 x23 ~x43 ~x17 ~x32 ~x37 ~x57 x85 ~x88 ~x28 ~x21 ~x35 x70 x68 ~x81 ~x74 ~x86 ~x33 ~x64 ~x56 ~x68 x74 ~x19 ~x95 
+
+Class 1: 
+~x85 x20 ~x82 ~x54 ~x1 x86 ~x23 ~x24 ~x62 ~x53 x80 ~x0 x67 ~x93 x59 ~x44 x66 ~x25 x39 x31 x26 ~x63 x79 x37 x87 ~x92 ~x35 x49 x27 x69 x40 x51 x93 x19 x68 x89 ~x75 ~x22 x90 x29 ~x81 x28 ~x55 ~x83 ~x84 ~x64 x48 
+
+Class 2: 
+~x66 ~x85 x64 x86 ~x62 ~x26 x3 ~x67 x71 x0 ~x25 x54 x79 ~x52 ~x57 x10 x45 x87 ~x35 ~x76 x73 ~x55 ~x83 ~x84 x48 ~x39 ~x95 ~x42 ~x10 x20 x18 ~x72 ~x54 ~x24 x36 ~x11 ~x5 x67 x47 ~x9 x57 x26 ~x37 x35 x88 x50 x27 ~x3 x78 x40 x12 ~x12 x68 x21 x89 ~x75 x29 ~x34 x75 ~x33 x41 ~x19 ~x82 ~x1 ~x23 ~x61 ~x53 x80 ~x0 ~x93 ~x78 x59 ~x44 x66 x17 x39 ~x13 ~x17 x37 x85 x91 x60 x38 ~x92 x77 ~x65 x70 x46 x51 x19 ~x22 x16 ~x45 x28 ~x81 x25 ~x64 ~x6 ~x73 ~x58 ~x8 ~x4 ~x94 x31 ~x43 ~x90 ~x2 ~x32 ~x63 ~x69 ~x87 x76 ~x59 x69 x84 x58 x95 ~x74 ~x47 x30 
+
+Class 3: 
+x5 ~x85 x11 x86 ~x62 x9 x3 x4 ~x77 x71 ~x25 x0 x79 ~x52 x10 x87 ~x21 ~x35 ~x55 ~x83 ~x84 x48 ~x68 x14 ~x95 ~x42 ~x10 x20 x18 ~x72 ~x54 ~x7 ~x24 x36 ~x11 ~x5 x67 x47 ~x9 ~x71 x57 x82 x15 x26 ~x37 x35 x88 ~x31 x2 ~x91 x50 x27 x13 ~x3 x78 x40 x12 x68 x21 ~x75 ~x27 x89 x29 ~x34 x75 ~x33 x41 x56 ~x14 x74 ~x82 ~x1 ~x23 ~x61 ~x53 x80 ~x0 ~x93 ~x78 x59 x23 ~x44 x66 x17 x39 ~x13 x37 x91 x7 x60 ~x92 x38 x77 x49 ~x65 x70 x46 x51 x19 x90 ~x22 x16 ~x81 x28 ~x45 ~x64 ~x6 ~x73 ~x58 ~x8 ~x4 ~x94 x31 ~x15 ~x43 ~x90 ~x2 ~x32 ~x69 ~x63 x76 x69 x58 x8 ~x74 x6 x61 x30 
+
+Class 4: 
+~x66 x5 ~x85 x11 x86 ~x62 x9 x3 ~x26 x4 ~x77 x71 ~x25 x0 x1 x54 x79 ~x52 x10 x45 x87 ~x21 ~x35 ~x76 ~x70 ~x55 ~x83 ~x84 x48 x14 ~x95 ~x42 ~x10 x20 x18 ~x72 ~x54 ~x36 ~x7 ~x24 x36 ~x11 ~x5 x67 x47 ~x9 x82 x57 x15 x26 x88 x83 x2 x50 ~x91 x27 x13 ~x3 x40 x78 x12 ~x12 x68 x89 ~x75 x21 x92 x29 ~x34 ~x33 x56 x41 x33 ~x14 ~x19 ~x82 ~x1 ~x23 ~x61 ~x53 x80 ~x0 ~x93 x59 x34 ~x44 x66 x17 x39 ~x13 ~x17 x37 x91 x7 x60 ~x92 x38 ~x28 x49 x77 ~x18 ~x16 ~x65 x70 x46 x51 x19 x90 x16 ~x45 x28 ~x81 ~x22 x25 ~x64 ~x6 ~x73 x42 x72 ~x8 ~x40 ~x46 ~x4 ~x94 x31 ~x15 ~x43 x81 ~x2 ~x32 ~x63 x32 ~x88 x76 x69 x84 x58 x8 ~x74 ~x80 x55 x6 ~x47 x61 x30 
+
+Class 5: 
+~x85 x11 x86 ~x62 x9 x4 x71 ~x25 x0 x1 x79 ~x52 x10 x87 ~x35 ~x55 ~x83 ~x84 x48 ~x95 ~x42 ~x10 x20 ~x72 x18 ~x54 ~x7 ~x24 x36 ~x5 x67 x47 ~x9 ~x71 x57 x15 x26 ~x37 x35 x88 x50 ~x91 x27 x13 ~x3 x78 x40 x12 ~x12 x68 x89 ~x75 x21 x29 ~x34 ~x33 x56 x41 x33 ~x14 x74 ~x19 ~x82 ~x23 ~x61 ~x53 x80 ~x0 ~x93 x59 ~x44 x66 x17 x39 ~x13 ~x17 x37 x91 x7 x60 x38 ~x92 x49 x77 ~x65 x70 x46 x51 x19 ~x45 x16 x90 x28 ~x81 ~x22 ~x64 ~x6 ~x73 ~x8 x24 ~x4 ~x94 x31 ~x15 ~x43 ~x2 ~x32 ~x63 x76 x69 x58 x8 ~x74 x6 ~x47 x61 x30 
+
+Class 6: 
+x5 ~x85 x11 x86 ~x62 x9 x3 ~x67 x4 ~x77 ~x20 x71 x0 ~x25 x1 x79 ~x52 x10 x45 x87 ~x48 ~x21 ~x35 ~x76 ~x55 ~x83 ~x84 x48 x14 ~x95 ~x42 ~x10 x20 x18 ~x72 ~x54 ~x7 ~x24 x36 ~x5 ~x11 x94 x67 x47 ~x9 x57 x82 x15 x26 x88 x83 ~x31 x50 ~x91 x2 x27 x13 ~x3 x52 x40 x78 x12 ~x12 x93 x68 x89 ~x75 x21 x29 ~x34 x75 ~x33 x56 x41 ~x14 ~x19 ~x82 ~x1 ~x23 ~x61 ~x53 x80 ~x0 ~x93 x59 ~x44 x66 x17 x39 ~x13 x37 x91 ~x60 x7 x60 x38 ~x92 x49 x77 ~x65 x70 x46 x51 x19 x90 x16 ~x45 x28 ~x81 ~x22 ~x64 ~x6 ~x73 x42 x72 ~x8 ~x46 ~x94 x31 ~x15 ~x43 x81 ~x2 ~x32 ~x63 x76 x69 x58 x8 ~x74 x6 x61 x30 
+

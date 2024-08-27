@@ -48,7 +48,7 @@ for i in range(no_classes):
 				else:
 					redress_code = redress_code + '1'
 				
-				redress_codes.append(redress_code)
+				redress_codes.append(int(redress_code,2))
 
 				includes_classes[i] = includes_classes[i] + 1
 		last_clause_bit = clause_bit
@@ -58,7 +58,7 @@ if not os.path.exists(r"redress"):
 
 encode_file = open(r"redress/encoded_include.txt", "w")
 for redress_code in redress_codes:
-	encode_file.write(redress_code+'\n')
+	encode_file.write(str(redress_code)+'\n')
 encode_file.close()
 
 no_includes_file = open(r"redress/no_includes.txt", "w")

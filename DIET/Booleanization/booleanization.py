@@ -115,12 +115,15 @@ for dataset in all_datasets:
 
 		# EMG
 		case "emg":
+			preprocessing.EMG_load(r'EMG')
+			'''
 			train = np.loadtxt(r'TinyML/EMG/EMG_train.txt')
 			test = np.loadtxt(r'TinyML/EMG/EMG_test.txt')
 			X_train = train[:, :-1]
 			Y_train = train[:, -1]
 			X_test = test[:, :-1]
 			Y_test = test[:, -1]
+			'''
 
 		# Sports
 		case "sports":

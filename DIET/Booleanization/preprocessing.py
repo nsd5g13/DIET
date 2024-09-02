@@ -1,6 +1,7 @@
 import numpy as np
 import tensorflow as tf
 import pathlib, librosa, cv2
+import os
 
 # -- Encode raw features into one-hot codes -------------------------------------------------
 def onehot_encoding(X_raw_features, no_bins):
@@ -198,3 +199,45 @@ def CIFAR_HOG(X_raw_features):
 				X_bool[i][j] = 0
 
 	return X_bool
+
+# -- load EMG dataset ---------------------------------------------------------
+def EMG_load(dataset_file_path):
+	all_subjects = os.walk(dataset_file_path)
+	all_dirs = [x[0] for x in all_subjects]
+	all_subjects = os.walk(dataset_file_path)
+	all_txt = [x[2] for x in all_subjects]
+	all_features = []
+	all_labels = []
+	for dir, txt in zip(all_dirs[1:], all_txt[1:]):
+		for each in txt:
+			subject_features = []
+			subject_labels = []
+			file_name = dir + '/' + each
+			f = open(file_name, 'r')
+			lines = f.readlines()
+			f.close()
+
+			print('Read text file: ' + file_name)
+			for each_line in lines[1:]:
+				features_label = each_line.split()
+				features = [float(x) for x in features_label[1:-1]]
+				subject_features.extend(features)
+				label = features_label[-1]
+				subject_labels.append(int(label))
+
+			subject_features = np.array(subject_features)
+			subject_labels = np.array(subject_labels)
+		
+			no_timesteps = int(np.floor(len(subject_features)/96)*96)
+			subject_features = subject_features[0:no_timesteps]
+			subject_features = subject_features.reshape(int(no_timesteps/96), 96)
+
+			no_timesteps = int(np.floor(len(subject_labels)/12)*12)
+			subject_labels = subject_labels[0:no_timesteps]
+			subject_labels = subject_labels.reshape(int(no_timesteps/12), 12)
+			print(subject_labels)
+
+	#all_features = np.array(all_features)
+	#all_labels = np.array(all_labels)
+	return all_features, all_labels
+
